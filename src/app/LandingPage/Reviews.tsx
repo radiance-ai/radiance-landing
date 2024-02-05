@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 const Reviews = () => {
   return (
@@ -17,21 +18,13 @@ const Reviews = () => {
           <h3 className="text-lg font-semibold text-black p-10">
             Very easy this was to integrate
           </h3>
-          <p className="p-10">
-            "Due to the price and the seasonal nature of our products, location
-            shootings are typically not an option for us. We've completely
-            transformed the game thanks to Radiance AI. We are able to produce
-            stunning lifestyle photographs in settings where we would never be
-            able to shoot, as opposed to relying solely on standard studio
-            shots!"
-          </p>
           <div className="flex items-center justify-center space-x-3 p-10">
             {/* <img
               className="rounded-full w-9 h-9"
               src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
               alt="profile"
             /> */}
-            <img
+            <Image
               src="https://media.licdn.com/dms/image/D560BAQE2TwMhuKwwfQ/company-logo_200_200/0/1682286861308?e=2147483647&v=beta&t=x7YCabilgsMCrSMKPCZAb39fGChNmVC2IiIpdh3LBXY"
               className="rounded-full w-9 h-9"
               alt="Radiance AI Logo"
@@ -50,15 +43,9 @@ const Reviews = () => {
             Very easy this was to integrate
           </h3>
           <p className="p-10">
-            "Due to the price and the seasonal nature of our products, location
-            shootings are typically not an option for us. We've completely
-            transformed the game thanks to Radiance AI. We are able to produce
-            stunning lifestyle photographs in settings where we would never be
-            able to shoot, as opposed to relying solely on standard studio
-            shots!"
           </p>
           <div className="flex items-center justify-center space-x-3 p-10">
-          <img
+          <Image
               src="https://media.licdn.com/dms/image/D560BAQE2TwMhuKwwfQ/company-logo_200_200/0/1682286861308?e=2147483647&v=beta&t=x7YCabilgsMCrSMKPCZAb39fGChNmVC2IiIpdh3LBXY"
               className="rounded-full w-9 h-9"
               alt="Radiance AI Logo"
@@ -76,16 +63,8 @@ const Reviews = () => {
           <h3 className="text-lg font-semibold text-black p-10">
             Very easy this was to integrate
           </h3>
-          <p className="p-10">
-            "Due to the price and the seasonal nature of our products, location
-            shootings are typically not an option for us. We've completely
-            transformed the game thanks to Radiance AI. We are able to produce
-            stunning lifestyle photographs in settings where we would never be
-            able to shoot, as opposed to relying solely on standard studio
-            shots!"
-          </p>
           <div className="flex items-center justify-center space-x-3 p-10">
-          <img
+          <Image
               src="https://media.licdn.com/dms/image/D560BAQE2TwMhuKwwfQ/company-logo_200_200/0/1682286861308?e=2147483647&v=beta&t=x7YCabilgsMCrSMKPCZAb39fGChNmVC2IiIpdh3LBXY"
               className="rounded-full w-9 h-9"
               alt="Radiance AI Logo"

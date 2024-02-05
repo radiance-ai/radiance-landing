@@ -65,3 +65,5 @@ export const Anchor = forwardRef<
     <a ref={ref} href={href.toString()} onClick={onClick} {...otherProps}></a>
   );
 });
+
+Anchor.displayName = 'Anchor';

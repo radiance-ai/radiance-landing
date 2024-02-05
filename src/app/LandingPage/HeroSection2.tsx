@@ -1,8 +1,9 @@
-import { Anchor } from '@/components/Anchor';
-import { Button } from '@/components/ui/Button';
+import { Anchor } from '@/src/components/Anchor';
+import { Button } from '@/src/components/ui/Button';
 import Image from 'next/image';
+// @ts-ignore
 import ChevronRightIcon from 'lucide-react/dist/esm/icons/chevron-right';
-import { T } from '@/components/ui/Typography';
+import { T } from '@/src/components/ui/Typography';
 
 type HeroSection2Props = {
     title: string;
@@ -21,7 +22,6 @@ const HeroSection2 = ({ title, description, image }: HeroSection2Props) => {
                             <div className="flex gap-x-4 border group w-fit items-center pr-2 mb-2 border-gray-300 dark:border-gray-700 rounded-xl shadow-sm p-[2px]">
                                 <div className="flex items-center border border-gray-300 bg-muted dark:bg-slate-800 dark:border-gray-700 rounded-lg shadow-sm px-2 py-[2px]">
                                     <T.Small className="text-xs md:text-sm text-gray-600 dark:text-slate-400">
-                                        What's new?
                                     </T.Small>
                                 </div>
                                 <div className="flex items-center">

@@ -1,5 +1,5 @@
-import { Anchor } from '@/components/Anchor';
-import { Button } from '@/components/ui/Button';
+import { Anchor } from '@/src/components/Anchor';
+import { Button } from '@/src/components/ui/Button';
 
 const CalltoActionSection = () => {
     return (

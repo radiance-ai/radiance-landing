@@ -1,39 +1,35 @@
 import { T } from '@/src/components/ui/Typography';
-import TaskIcon from 'lucide-react/dist/esm/icons/file';
-import TeamIcon from 'lucide-react/dist/esm/icons/users';
-import ProjectIcon from 'lucide-react/dist/esm/icons/layers';
-import ResourceIcon from 'lucide-react/dist/esm/icons/book';
-import RiskIcon from 'lucide-react/dist/esm/icons/traffic-cone';
+import { FaBeer } from "react-icons/fa";
 
 const features = [
     {
         name: 'Text to Image Generation',
         description:
             'Generate product images from text descriptions using advanced AI models.',
-        icon: <TaskIcon className="group-hover:-8" />,
+        icon: <FaBeer className="group-hover:-8" />,
     },
     {
         name: 'Style Transfer in Images',
         description: 'Apply artistic styles to images using our AI-powered style transfer model.',
 
-        icon: <TeamIcon className="group-hover:-8" />,
+        icon: <FaBeer className="group-hover:-8" />,
     },
     {
         name: 'Virtual Try-On Model (Marquee)',
         description: 'Try on clothes virtually and visualize how they fit on various human models.',
-        icon: <ProjectIcon className="group-hover:-8" />,
+        icon: <FaBeer className="group-hover:-8" />,
     },
     {
         name: 'Material Suggestions',
         description:
             'Get suggestions for cloth materials based on AI analysis and user preferences.',
-        icon: <ResourceIcon className="group-hover:-8" />,
+        icon: <FaBeer className="group-hover:-8" />,
     },
     {
         name: 'Fitting Recommendations',
         description:
             'Receive recommendations on fitting based on the selected cloth material and style.',
-        icon: <RiskIcon className="group-hover:-8" />,
+        icon: <FaBeer className="group-hover:-8" />,
     },
 ];
 const AllFeatures = () => {
